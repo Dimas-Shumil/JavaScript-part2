@@ -35,6 +35,19 @@ $linkColor: #B5E916;
         a {
             flex-basis: calc(11% - 3px);
             cursor: pointer;
+            border-radius: 4px;
+        }
+        a:link,
+        a:visited,
+        a:focus {
+            background: yellow;
+        }
+        a:hover {
+            background: orange;
+        }
+        a:active {
+            background: red;
+            color: white;
         }
       
     }

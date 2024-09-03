@@ -29,4 +29,17 @@
 .header__nav a {
   flex-basis: calc(11% - 3px);
   cursor: pointer;
+  border-radius: 4px;
+}
+.header__nav a:link,
+.header__nav a:visited,
+.header__nav a:focus {
+  background: yellow;
+}
+.header__nav a:hover {
+  background: orange;
+}
+.header__nav a:active {
+  background: red;
+  color: white;
 }/*# sourceMappingURL=header.css.map */
