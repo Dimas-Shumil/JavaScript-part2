@@ -98,6 +98,13 @@ blockquote {
   letter-spacing: 1px;
 }
 
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-left: 60px;
+}
+
 .wrapper__text {
   color: #B5E916;
 }
@@ -128,7 +135,8 @@ td {
 }
 
 /* Кнопка выпадающего меню при наведении и фокусировке */
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover,
+.dropbtn:focus {
   background-color: #2980B9;
 }
 
