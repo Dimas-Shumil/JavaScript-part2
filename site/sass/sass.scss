@@ -8,6 +8,7 @@ $linkColor: #B5E916;
 $colorPink: #FFF0EC;
 $white: #fff;
 $grey: rgba(233, 230, 230, 0.377);
+$colorBlue: #EFEFFE;
 
 
 // gemeric
@@ -62,6 +63,7 @@ blockquote {
     letter-spacing: 1px;
 }
 // обертка для span
+
 .wrapper__text {
     color: $linkColor;
 }
@@ -132,6 +134,7 @@ td {
   
 
 // main
+
 .main {
     // border: 1px solid rgb(202, 26, 26);
     background-color: $grey;
@@ -165,6 +168,18 @@ td {
             font-family: Arial, Helvetica, sans-serif;
             letter-spacing: 1px;
         }
+
+&__box-blue {
+    background-color: $colorBlue;
+    padding: 15px;
+    width: 80%;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #222222;
+}
 
         &__box {
             background-color: $colorPink;
